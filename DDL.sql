@@ -1,6 +1,6 @@
 DROP TABLE inventory;
 DROP TABLE ship;
-DROP TABLE index;
+DROP TABLE orderIndex;
 DROP TABLE orderDetail;
 
 CREATE TABLE orderDetail(
