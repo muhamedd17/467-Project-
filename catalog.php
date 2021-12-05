@@ -1,10 +1,14 @@
-<!-- catalog.php -->
+<!-- Muhamed Delic -->
+<!-- z1905512 -->
+<!-- CSCI 467 -->
+<!-- Project Part 3 -->
 <html><head><title> NIU Auto Parts Catalog Page </title></head>
 <h1 style="text-align:left;">
 NIU Auto Parts
 </h1>
 <center>
     <body style="background-color:Tomato;">
+    <a href="https://lh3.googleusercontent.com/ej6MYUL3K8rVH3fe1BaXkykOx1xnzdaUdtW89Cf8Axm8yrqEm_wMgRT83U7YNjECCSAu2e53nYCPikeiAym-GLKChNJbNUO1pQ8L-7CRkpf4FIQiTTJhkMshxCtTDf_ifP9Y6lbW_A=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/ej6MYUL3K8rVH3fe1BaXkykOx1xnzdaUdtW89Cf8Axm8yrqEm_wMgRT83U7YNjECCSAu2e53nYCPikeiAym-GLKChNJbNUO1pQ8L-7CRkpf4FIQiTTJhkMshxCtTDf_ifP9Y6lbW_A=w600-h315-p-k" /> </a>
     <h2>Products</h2>
 </center>
 
@@ -15,21 +19,12 @@ NIU Auto Parts
 <?php
 require('dbConn.php');
 $rs = $pdo2->query("SELECT * FROM parts;");
-
-
-//get the row to print
-//$rows = $query1->fetchAll(PDO::FETCH_ASSOC); 
-
-//$rs = $pdo->query("SELECT * FROM Inventory;");
-
-
 $rows = $rs->fetchAll(PDO::FETCH_ASSOC);
 
 foreach($rows as $row) {
 echo ' 	<h3>'.$row['description'].'</h3>
 <p><img src="'.$row['pictureURL'].'"></p>
-<p> <b>Price: $</b>'.$row['price'].' </p>
-<p>Quantity in stock: '.$row['price'].'</p>
+<p>Price: $'.$row['price'].' </p>
 <h5>Select Quantity: <input type="number" name="'.$row['number'].'"></h5>
 ';
 }
