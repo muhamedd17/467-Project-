@@ -3,10 +3,6 @@ DROP TABLE ship;
 DROP TABLE index;
 DROP TABLE orderDetail;
 
-CREATE TABLE inventory(partNumber INT NOT NULL, quantity INT, PRIMARY KEY (partNumber));
-CREATE TABLE ship(bracket INT PRIMARY KEY, charges FLOAT);
-CREATE TABLE index(orderNumber INT NOT NULL, partNumber INT NOT NULL, quantity INT, PRIMARY KEY (orderNumber, partNumber), FOREIGN KEY (orderNumber) REFERENCES orderDetail(customerID));
-
 CREATE TABLE orderDetail(
     customerID INT NOT NULL AUTO_INCREMENT,
     name       VARCHAR(30) NOT NULL,
@@ -21,3 +17,7 @@ CREATE TABLE orderDetail(
     
     PRIMARY KEY (customerID)
 );
+
+CREATE TABLE inventory(partNumber INT NOT NULL, quantity INT, PRIMARY KEY (partNumber));
+CREATE TABLE ship(bracket INT PRIMARY KEY, charges FLOAT);
+CREATE TABLE orderIndex(orderNumber INT NOT NULL, partNumber INT NOT NULL, quantity INT, PRIMARY KEY (orderNumber, partNumber), FOREIGN KEY (orderNumber) REFERENCES orderDetail(customerID));
