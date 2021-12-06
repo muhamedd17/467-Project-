@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>
+		Print Confirmation
+		</title>
+	</head>
+
+	<h1 style="text-align:left">
+	Print Confirmation
+	</h1>
+	<body style="background-color:Tomato;">
+		<h2>
+		The Shipping Lable has been Printed!
+		</h2>
+</html>
