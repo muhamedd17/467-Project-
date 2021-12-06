@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>
+		ORDER 0002
+		</title>
+	</head>
+
+	<h1 style="text-align:left">
+	ORDER 0002
+	</h1>
+	<body style="background-color:Tomato;">
+		<h2>
+		First Name: Michael
+		</h2>
+		<h2>
+		Last Name: Jackson
+		</h2>
+		<h2>
+		Home Address: 420 Bille Jean rd
+		</h2>
+		<h2>
+		Email Address: michaeljackson@gmail.com
+		</h2>
+		
+		<a href="https://www.google.com">
+		<button>
+		Print Shipping lable
+		</button>
+		</a>
+</html>
