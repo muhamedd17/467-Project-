@@ -1,4 +1,6 @@
-# 467-Project-Link: http://students.cs.niu.edu/~z1905512/catalog.php
+# 467-Project
+# http://students.cs.niu.edu/~z1905512/catalog.php
+# http://students.cs.niu.edu/~z1905512/employee.php
 
 Project Part Three
 (To be completed by groups, make one submission per group)
