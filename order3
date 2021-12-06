@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>
+		ORDER 0003
+		</title>
+	</head>
+
+	<h1 style="text-align:left">
+	ORDER 0003
+	</h1>
+	<body style="background-color:Tomato;">
+		<h2>
+		First Name: Tom
+		</h2>
+		<h2>
+		Last Name: Brady
+		</h2>
+		<h2>
+		Home Address: 69 Nice Blvd
+		</h2>
+		<h2>
+		Email Address: tombrady@gmail.com
+		</h2>
+		
+		<a href="https://www.google.com">
+		<button>
+		Print Shipping lable
+		</button>
+		</a>
+</html>
