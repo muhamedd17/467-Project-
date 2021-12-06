@@ -12,16 +12,17 @@ NIU Auto Parts
     <h2>Products</h2>
 </center>
 
-<form action="orderSubmit.php" method="POST">
-<input type="submit" name="orderSubmit" value="Add to Cart" style=float:right>
-</form>
-
 <?php
 require('dbConn.php');
-$rs = $pdo2->query("SELECT * FROM parts;");
-$rows = $rs->fetchAll(PDO::FETCH_ASSOC);
+echo "<form method='POST'action='orderSubmit.php'>";
+echo "<input type='submit' name='orderSubmit' value='Add to Cart' style=float:right />";
+echo "</form>";
 
-foreach($rows as $row) {
+$prep = $pdo2->prepare("SELECT * FROM parts;");
+$prep->execute(array($_POST['orderSubmit']));
+$rows = $prep->fetchAll(PDO::FETCH_ASSOC);
+
+foreach($rows as $row){
 echo ' 	<h3>'.$row['description'].'</h3>
 <p><img src="'.$row['pictureURL'].'"></p>
 <p>Price: $'.$row['price'].' </p>
