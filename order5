@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>
+		ORDER 0006
+		</title>
+	</head>
+
+	<h1 style="text-align:left">
+	ORDER 0006
+	</h1>
+	<body style="background-color:Tomato;">
+		<h2>
+		First Name: Johnny
+		</h2>
+		<h2>
+		Last Name: Sins
+		</h2>
+		<h2>
+		Home Address: 8 Long Ave
+		</h2>
+		<h2>
+		Email Address: johnnysins@gmail.com
+		</h2>
+		
+		<a href="https://www.google.com">
+		<button>
+		Print Shipping lable
+		</button>
+		</a>
+</html>
