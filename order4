@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>
+		ORDER 0004
+		</title>
+	</head>
+
+	<h1 style="text-align:left">
+	ORDER 0004
+	</h1>
+	<body style="background-color:Tomato;">
+		<h2>
+		First Name: Lana
+		</h2>
+		<h2>
+		Last Name: Rhoades
+		</h2>
+		<h2>
+		Home Address: 1545 Stepbro Ave
+		</h2>
+		<h2>
+		Email Address: lanaRhoades@gmail.com
+		</h2>
+		
+		<a href="https://www.google.com">
+		<button>
+		Print Shipping lable
+		</button>
+		</a>
+</html>
