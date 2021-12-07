@@ -2,6 +2,7 @@
 # http://students.cs.niu.edu/~z1905512/catalog.php
 # http://students.cs.niu.edu/~z1905512/employee.php
 # http://students.cs.niu.edu/~z1905512/workstation.php
+# http://students.cs.niu.edu/~z1905512/admin.php
 
 Project Part Three
 (To be completed by groups, make one submission per group)
